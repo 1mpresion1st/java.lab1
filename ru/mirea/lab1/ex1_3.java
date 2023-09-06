@@ -13,4 +13,4 @@ public class ex1_3 {
         System.out.println("Sum: " +sum); //вывод  суммы
         System.out.println("Avg: " +avg); // вывод  среднего  арифм.
     }
-}//dkfjerlkjhflkerjflkre
+}
