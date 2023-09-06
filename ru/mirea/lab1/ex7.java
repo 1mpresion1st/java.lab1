@@ -1,10 +1,14 @@
 package ru.mirea.lab1;
 
 public class ex7 {
-    public static void main(String[] args) {
-        for (int i = 1; i < 11; i++) {
-            System.out.print(i + " число = ");
-            System.out.println(1.0/i);
+    public static void fact(int num) { //метод подсчета факториала
+        int res = 1;
+        for (int i = 1; i <= num; i++) { //цикл для подсчета факториала
+            res *= i;
         }
+        System.out.println(res); //вывод результата
+    }
+    public static void main(String[] args) { //вызов метода
+        fact(5);
     }
 }
