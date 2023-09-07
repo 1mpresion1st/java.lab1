@@ -17,3 +17,4 @@ public class TestBall {
         System.out.println("y = " + k1.getY());
     }
 }
+
