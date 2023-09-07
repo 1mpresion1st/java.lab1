@@ -36,7 +36,7 @@ public class ex4 {
         mini = arr[0];
         c = 0;
         sum = 0;
-        do { //цикл do while для поиска  нужных  нам значений
+        do { //цикл do while для поиска  нужных нам значений
             sum += arr[c];
             if (arr[c] > maxi) {
                 maxi = arr[c];
