@@ -8,6 +8,7 @@ public class CircleTest {
         Circle k2 = new Circle(0, "Circle 2");
         Circle k3 = new Circle(0, "Circle 3");
 
+
         k1.setDiameter(10);
         k2.setDiameter(20);
         k3.setDiameter(30);
