@@ -7,15 +7,15 @@ public class TestAuthor {
 
         System.out.println("----Author 1----");
 
-        System.out.println(k1.getName());
-        System.out.println(k1.getEmail());
-        System.out.println(k1.getGender());
+        System.out.println("Имя: " + k1.getName());
+        System.out.println("Почта: " + k1.getEmail());
+        System.out.println("Пол: " + k1.getGender());
 
-        System.out.println("----Author 2----");
+        System.out.println("\n----Author 2----");
 
-        System.out.println(k2.getName());
-        System.out.println(k2.getEmail());
-        System.out.println(k2.getGender());
+        System.out.println("Имя: " + k2.getName());
+        System.out.println("Почта: " + k2.getEmail());
+        System.out.println("Пол: " + k2.getGender());
 
 
     }

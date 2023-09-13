@@ -9,13 +9,13 @@ public class ex1 {
         double[] array;
         array = new double[5];
 
-//        for (int i = 0; i < array.length; i++){
-//            array[i] = Math.random();
-//        };
-
         for (int i = 0; i < array.length; i++){
-            array[i] = rand.nextInt(10000);
+            array[i] = Math.random();
         };
+
+//        for (int i = 0; i < array.length; i++){
+//            array[i] = rand.nextInt(10000);
+//        };
 
         System.out.println("\n----Not Sorted Array----");
 
